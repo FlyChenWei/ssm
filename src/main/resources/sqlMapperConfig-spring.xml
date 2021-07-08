@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+
+    <!--别名-->
+    <typeAliases>
+        <typeAlias type="it.heima.domain.Account" alias="account"></typeAlias>
+        <!--通过扫包的方式定义别名,扫描某个包会自动对应别名 Account ->>Account or account-->
+      <!--  <package name="it.heima.domain"/>-->
+    </typeAliases>
+
+    <!--定义环境-->
+    <!--加载properties文件-->
+
+    <!--加载影射文件-->
+
+
+</configuration>
